@@ -10,14 +10,23 @@
     <div class="container">
         <div class="left-side">
             <div class="banner"></div> 
+            <img class="logo" src="odin-lined.png" alt="Odin Logo"/>
             <h1>Welcome to Our Form Submission Page</h1>
             <p>This is the left side with a background image.</p>
             <!-- Add your form here if needed -->
         </div>
         <div class="right-side">
-            <!-- Content for the right side without a background image -->
-            <!-- Add your form here if needed -->
-        </div>
+            <form>
+<label for="first_name"> First Name</label>
+<input type="text" id="first_name" placeholder="Anna.."> 
+<label for="last_name"> Last Name</label>
+<input type="text" id="last_name" placeholder="Goetz..">              
+<label for="user_email"> Email Address </label>
+<input type="email" id="user_email" name="email" placeholder="youremail@yahoo.com">
+<label for="phone_number"> Phone Number</label>
+<input type="tel" id="phone_number" name="phone number" placeholder="000-000-0000" pattern="\d{10}" required>>
+</form>
+               </div>
     </div>
 </body>
 </html>
