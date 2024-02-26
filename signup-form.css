@@ -20,12 +20,25 @@ body {
     flex: 1;
     padding: 50px;
     background-color: #f4f4f4; 
+    color: black;
 }
 .banner {
     position: absolute;
-    top: 400px;
+        top: 400px;
     left: 0;
     height: 20%;
     width: 50%; /* Adjust the width of the banner as needed */
     background-color: rgba(0, 0, 0, 0.5); /* Adjust the alpha value for transparency */
+}
+.logo {
+    position: relative;
+scale: 30%;
+
+}
+
+fieldset {
+    border: 2px solid #ddd; /* Border style for the fieldset */
+    border-radius: 8px; /* Optional: Add rounded corners for visual appeal */
+    padding: 20px; /* Optional: Add padding for better spacing inside the fieldset */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle shadow effect */
 }
