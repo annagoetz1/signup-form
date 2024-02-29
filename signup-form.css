@@ -43,15 +43,14 @@ fieldset {
     padding: 60px; /* Optional: Add padding for better spacing inside the fieldset */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle shadow effect */
 }
-.name-container, 
+.name-container,
 .contact-container {
     display: flex;
-    flex-wrap: wrap;
-    max-width: 700px;
-    gap: 20px;
+    gap: 10px; /* Adjust the gap between labels and input boxes */
 }
 
-
-input {
-    flex: 1;
+.name-input,
+.contact-input {
+    display: flex;
+    flex-direction: column;
 }
