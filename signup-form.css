@@ -26,13 +26,16 @@ body {
     position: absolute;
         top: 400px;
     left: 0;
-    height: 20%;
+    height: 25%;
     width: 50%; /* Adjust the width of the banner as needed */
     background-color: rgba(0, 0, 0, 0.5); /* Adjust the alpha value for transparency */
 }
 .logo {
     position: relative;
-scale: 30%;
+scale: 40%;
+top: 12%;
+left: 25%;
+z-index: 1; 
 
 }
 
