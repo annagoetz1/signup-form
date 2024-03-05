@@ -46,7 +46,10 @@ fieldset {
 .name-container,
 .contact-container {
     display: flex;
-    gap: 10px; /* Adjust the gap between labels and input boxes */
+    gap: 40px; 
+    margin-left: 40px;
+    margin-top: 80px;
+    font-size: 20px;
 }
 
 .name-input,
